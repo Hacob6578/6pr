@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 6pr
+namespace _6pr
 {
     internal class Program
     {
@@ -12,7 +12,7 @@ namespace 6pr
         {
             string s = Console.ReadLine();
             double x = double.Parse(s);
-            double F = 2 * Math.Cos(x);
+            double F = Math.Sin(x) * Math.Cos(x);
             Console.WriteLine(x + " " + F);
             Console.ReadKey();
             return;
