@@ -4,13 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6pr
+namespace 6pr
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("aboba");
+            string s = Console.ReadLine();
+            double x = double.Parse(s);
+            double F = 2 * Math.Cos(x);
+            Console.WriteLine(x + " " + F);
+            Console.ReadKey();
+            return;
         }
     }
 }
