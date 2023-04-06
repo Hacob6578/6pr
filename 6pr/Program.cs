@@ -10,6 +10,7 @@ namespace _6pr
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("aboba");
         }
     }
 }
